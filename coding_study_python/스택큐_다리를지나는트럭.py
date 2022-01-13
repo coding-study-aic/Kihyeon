@@ -4,7 +4,6 @@ def solution(bridge_length, weight, truck_weights):
     answer = 0
 
     waitq = deque(truck_weights)
-    # bridge = [0] * bridge_length
     bridgeq = deque(0 for _ in range(bridge_length))
     completeq = deque()
 
