@@ -21,7 +21,9 @@ def solution(jobs):
             answer += end - ls[0][0]
             jobs.remove(ls[0])
         else:
-            answer += jobs.pop(0)[1]
+            tmp = jobs.pop(0)
+            answer += tmp[1]
+            end = tmp[0] + tmp[1]
 
     return answer//cnt
 
@@ -38,8 +40,8 @@ if __name__ == "__main__":
     # jobs = [[1, 9], [1, 4], [1, 5], [1, 7], [1, 3]] 
     # # # return = 13
 
-    # print(solution(jobs))
-    print(solution([[0, 9], [1, 1], [1, 1], [1, 1], [1, 1]]))
+    print(solution(jobs))
+    # print(solution([[0, 9], [1, 1], [1, 1], [1, 1], [1, 1]]))
     # print(solution([[0, 10], [2, 10], [9, 10], [15, 2]]), 14)
     # print(solution([[0, 10], [2, 12], [9, 19], [15, 17]]), 25)
     # print(solution([[0, 3], [1, 9], [2, 6]]), 9)
@@ -51,7 +53,7 @@ if __name__ == "__main__":
     # print(solution([[100, 100], [1000, 1000]]), 500)
     # print(solution([[10, 10], [30, 10], [50, 2], [51, 2]]), 6)
     # print(solution([[0, 3], [1, 9], [2, 6], [30, 3]]), 7)
-    print(solution([[0, 10], [4, 10], [5, 11], [15, 2]]), 15)
-    print(solution(	[[0, 10]]), 10)
-    print(solution([[0, 10], [2, 3], [9, 3]]), 9)
-    print(solution([[0, 3], [4, 3], [10, 3]]), 3)
+    # print(solution([[0, 10], [4, 10], [5, 11], [15, 2]]), 15)
+    # print(solution(	[[0, 10]]), 10)
+    # print(solution([[0, 10], [2, 3], [9, 3]]), 9)
+    # print(solution([[0, 3], [4, 3], [10, 3]]), 3)
