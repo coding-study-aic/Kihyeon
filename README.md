@@ -23,4 +23,5 @@ https://programmers.co.kr/learn/courses/30/lessons/42626</br>
 
 - 220116 </br>
 https://programmers.co.kr/learn/courses/30/lessons/42627</br>
-** 사람들이 올린 테케 시도해봐도 19번 테케를 통과하지 못했다. 내일 꼭 해결해봐야지...
+** 문제를 풀다가 말아서 실패했던 거였다. 피곤하면 다음 날에 이어서 해보자..</br>
+** 테스트케이스 할 때 간단한 테스트 케이스도 꼭 해보자.
