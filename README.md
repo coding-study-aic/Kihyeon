@@ -25,3 +25,7 @@ https://programmers.co.kr/learn/courses/30/lessons/42626</br>
 https://programmers.co.kr/learn/courses/30/lessons/42627</br>
 ** 문제를 풀다가 말아서 실패했던 거였다. 피곤하면 다음 날에 이어서 해보자..</br>
 ** 테스트케이스 할 때 간단한 테스트 케이스도 꼭 해보자.
+
+- 220117 </br>
+https://programmers.co.kr/learn/courses/30/lessons/42628</br>
+** heapq를 사용해서 sort() 사용을 줄일 수 있다. 파이썬 정말 간편하다!
