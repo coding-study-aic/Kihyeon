@@ -28,4 +28,6 @@ https://programmers.co.kr/learn/courses/30/lessons/42627</br>
 
 - 220117 </br>
 https://programmers.co.kr/learn/courses/30/lessons/42628</br>
-** heapq를 사용해서 sort() 사용을 줄일 수 있다. 파이썬 정말 간편하다!
+** heapq를 사용해서 sort() 사용을 줄일 수 있다. 파이썬 정말 간편하다!</br>
+https://programmers.co.kr/learn/courses/30/lessons/42862</br>
+** for문 안에서 for문에서 이용하는 리스트를 변경하면 안됨! 따로 처리해주어야 한다.
