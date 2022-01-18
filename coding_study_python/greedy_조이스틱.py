@@ -1,60 +1,32 @@
 def solution(name):
     answer = 0
+    min_move = []
 
-    # A : 65, Z : 90
-    # 이름의 글자 수 만큼 A로 채움 
-    res = [65 for _ in range(len(name))]
-    check = [False for _ in range(len(name))]
+    # 상하, 좌우로 최솟값 고려
+    # 상하 최솟값 - 위로 이동 vs Z로, 아래로 이동
+    for i, ch in enumerate(name):
+        tmp = min(ord(ch) - ord('A'), ord('Z') - ord(ch) + 1)
+        min_move.append(tmp)
+
     i = 0
-    a = 0
-    al = []
-    aid = []
+    while True:
+        answer += min_move[i]
+        min_move[i] = 0
 
-    for idx in range(len(name)):
-        if name[idx] == 'A':
-            for j in name[idx:]:
-                if j == 'A':
-                    # answer -= 1
-                    a += 1
-                else:
-                    break
-        aid.append(idx)
-        al.append(a)
-        a = 0
+        # A일 경우 넘어감
+        if sum(min_move) == 0:
+            break
 
-    a = max(al)
-    print(a, al, aid)
-            
-    if a > 0:
-        answer -= a
-    # if a > 1:
-    #     answer +=1
-    
-    # for ci in range(a):
-    #     check[aid[al.index(a)] + ci] = True
-
-    print(check)    
-    while not all(check):
-        if check[i] == False:
-            check[i] = True
-            print(name[i], ord(name[i]), res[i], answer)
-
-            # 알파벳이 Z에 더 가까울 경우 아래로 내리기 때문
-            if ord(name[i]) != res[i] and ord(name[i]) > 77:
-                res[i] = 91
-
-            # 만약에 알파벳이 다르다면 횟수 1 추가, res 알파벳 1 증가.
-            while ord(name[i]) != res[i]:
-                # 만약 Z에 더 가깝다면 아래로
-                if ord(name[i]) <= 77:
-                    res[i] += 1
-                else:
-                    res[i] -= 1
-                answer += 1
-                
-        if not all(check):
-            answer += 1
-            i += 1
+        # 좌우 최솟값 - 오른쪽으로만 이동 vs 왼쪽으로 돌아가 이동 
+        # A가 등장할 경우 반대쪽으로 이동할 경우 있음 (다시 처음으로 돌아간 후 뒤에서 마지막 A까지 이동)
+        left,right = 1,1
+        while min_move[i - left] == 0:
+            left += 1
+        while min_move[i + right] == 0:
+            right += 1
+        
+        answer += left if left < right else right
+        i += -left if left < right else right
 
     return answer
 
