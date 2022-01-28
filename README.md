@@ -35,3 +35,8 @@ https://programmers.co.kr/learn/courses/30/lessons/42862</br>
 - 220118 </br>
 https://programmers.co.kr/learn/courses/30/lessons/42860</br>
 ** 실패.. 내일 다시 해봐야지..</br>
+
+
+### SQL 문제
+- 220128</br>
+https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=select</br>
