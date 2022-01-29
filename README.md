@@ -36,6 +36,10 @@ https://programmers.co.kr/learn/courses/30/lessons/42862</br>
 https://programmers.co.kr/learn/courses/30/lessons/42860</br>
 ** 실패.. 내일 다시 해봐야지..</br>
 
+- 220129 </br>
+https://programmers.co.kr/learn/courses/30/lessons/92334</br>
+https://programmers.co.kr/learn/courses/30/lessons/77484</br>
+https://programmers.co.kr/learn/courses/30/lessons/72410</br>
 
 ### SQL 문제
 - 220128</br>
