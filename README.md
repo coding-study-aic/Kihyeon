@@ -41,6 +41,9 @@ https://programmers.co.kr/learn/courses/30/lessons/92334</br>
 https://programmers.co.kr/learn/courses/30/lessons/77484</br>
 https://programmers.co.kr/learn/courses/30/lessons/72410</br>
 
+- 220130 </br>
+https://programmers.co.kr/learn/courses/30/lessons/60057</br>
+
 ### SQL 문제
 - 220128</br>
 https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=select</br>
