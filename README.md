@@ -46,6 +46,10 @@ https://programmers.co.kr/learn/courses/30/lessons/60057</br>
 
 - 220131 </br>
 https://programmers.co.kr/learn/courses/30/lessons/42888</br>
+https://programmers.co.kr/learn/courses/30/lessons/81301</br>
+https://programmers.co.kr/learn/courses/30/lessons/67256</br>
+
+
 
 ### SQL 문제
 - 220128</br>
