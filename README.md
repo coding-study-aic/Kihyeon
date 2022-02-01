@@ -54,8 +54,22 @@ https://programmers.co.kr/learn/courses/30/lessons/76501</br>
 https://programmers.co.kr/learn/courses/30/lessons/70128</br>
 https://programmers.co.kr/learn/courses/30/lessons/12977</br>
 
-
+- 220201 </br>
+https://programmers.co.kr/learn/courses/30/lessons/62048</br>
+** 수학 공식처럼 식으로 푸는 문제였다. 대각선을 그었을 때 나뉘어지는 사각형을 구하려면 최소공배수를 이용한다. (w+h - gcd(w,h))</br>
+https://programmers.co.kr/learn/courses/30/lessons/12899</br>
+** 규칙을 찾고 만들어나간다.</br>
+https://programmers.co.kr/learn/courses/30/lessons/1845</br>
+https://programmers.co.kr/learn/courses/30/lessons/12973</br>
+** 스택을 이용한다.</br>
 
 ### SQL 문제
-- 220128</br>
+- 220128 hackerrank</br>
 https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=select</br>
+
+- 220201 programmers</br>
+select : https://programmers.co.kr/learn/courses/30/parts/17042</br>
+sum, max, min : https://programmers.co.kr/learn/courses/30/parts/17043</br>
+group by : https://programmers.co.kr/learn/courses/30/parts/17044</br>
+is null : https://programmers.co.kr/learn/courses/30/parts/17045</br>
+
