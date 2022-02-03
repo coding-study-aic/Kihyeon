@@ -1,0 +1,11 @@
+select ANIMAL_ID, NAME
+from ANIMAL_INS
+where NAME like '%EL%'
+and ANIMAL_TYPE = 'Dog'
+order by NAME;
+
+SELECT ANIMAL_ID, NAME
+FROM ANIMAL_INS
+WHERE (NAME LIKE "%el%" or NAME LIKE "%el%")
+    and ANIMAL_TYPE = 'Dog'
+ORDER BY NAME
