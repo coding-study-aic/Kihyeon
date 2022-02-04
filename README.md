@@ -68,8 +68,7 @@ https://programmers.co.kr/learn/courses/30/lessons/12973</br>
 https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=select</br>
 
 - 220201 programmers</br>
-select : https://programmers.co.kr/learn/courses/30/parts/17042</br>
-sum, max, min : https://programmers.co.kr/learn/courses/30/parts/17043</br>
-group by : https://programmers.co.kr/learn/courses/30/parts/17044</br>
-is null : https://programmers.co.kr/learn/courses/30/parts/17045</br>
+https://programmers.co.kr/learn/challenges?tab=sql_practice_kit</br>
 
+- 220204 sqlzoo</br>
+https://sqlzoo.net/wiki/SQL_Tutorial</br>
