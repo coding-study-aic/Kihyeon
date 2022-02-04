@@ -63,6 +63,11 @@ https://programmers.co.kr/learn/courses/30/lessons/1845</br>
 https://programmers.co.kr/learn/courses/30/lessons/12973</br>
 ** 스택을 이용한다.</br>
 
+- 220203 </br>
+https://programmers.co.kr/learn/courses/30/lessons/42889 </br>
+https://programmers.co.kr/learn/courses/30/lessons/72411 </br>
+
+
 ### SQL 문제
 - 220128 hackerrank</br>
 https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=select</br>
