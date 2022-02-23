@@ -67,6 +67,9 @@ https://programmers.co.kr/learn/courses/30/lessons/12973</br>
 https://programmers.co.kr/learn/courses/30/lessons/42889 </br>
 https://programmers.co.kr/learn/courses/30/lessons/72411 </br>
 
+- 220224 </br>
+https://programmers.co.kr/learn/courses/30/lessons/12982 </br>
+
 
 ### SQL 문제
 - 220128 hackerrank</br>
