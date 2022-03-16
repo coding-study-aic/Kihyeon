@@ -1,0 +1,7 @@
+void PrintVec(vector<string> &vec)
+{
+    for (const auto &item : vec) {
+        cout << item << "; ";
+    }
+    cout << endl;
+}
