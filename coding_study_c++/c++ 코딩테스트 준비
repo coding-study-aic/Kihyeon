@@ -1,3 +1,4 @@
+// 벡터 내용 프린트하는 함수
 void PrintVec(vector<string> &vec)
 {
     for (const auto &item : vec) {
