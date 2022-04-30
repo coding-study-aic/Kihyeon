@@ -71,6 +71,16 @@ https://programmers.co.kr/learn/courses/30/lessons/72411 </br>
 https://programmers.co.kr/learn/courses/30/lessons/12982 </br>
 
 
+- 220430 SWEA</br>
+https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo& </br>
+** int()를 사용하면 쉽게 진수 변환이 가능하다.
+
+```python
+
+pw.add(int(''.join(arr), 16)) # 이런 식으로 하면 16진수를 10진수로 쉽게 변환 가능
+
+```
+
 ### SQL 문제
 - 220128 hackerrank</br>
 https://www.hackerrank.com/domains/sql?filters%5Bsubdomains%5D%5B%5D=select</br>
